@@ -18,13 +18,13 @@ Example:
 #include <string.h>
 #include "mergeAlgo.h"
 
+
 int main()
 {
-    char ar[1000];
+    char ar[1000];   
     gets(ar);
     int n = strlen(ar);
     mergeSortChar(ar,0,n-1);
-
     puts(ar);
     return 0;
 }
